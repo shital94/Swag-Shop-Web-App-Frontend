@@ -41,7 +41,7 @@ export class ResetPasswordComponent implements OnInit {
           console.log(response)
         }
       })
-      this.router.navigate(['']);
+      this.router.navigate(['home']);
   }
 
 }
