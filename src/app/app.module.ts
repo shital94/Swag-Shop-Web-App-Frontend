@@ -13,6 +13,7 @@ import { DisplayProductsComponent } from './components/display-products/display-
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { CreateItemComponent } from './components/create-item/create-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
     CartComponent,
     CheckoutComponent,
     DisplayProductsComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    CreateItemComponent
   ],
   imports: [
     BrowserModule,
